@@ -1,4 +1,3 @@
-#! /usr/bin/python3
 import streamlit as st
 st.title ("Formula de Bhaskara")
 def run():
