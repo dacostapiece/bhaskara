@@ -24,17 +24,17 @@ st.image("https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo/formula
 st.write ("Calcula a Bhaska ai pra Noiz!")
 #USER st.number_input
 st.write("Qual Ã© o valor de A?")
-a = st.number_input("SugestÃ£o 1: " )
+a = st.number_input("SugestÃ£o 1: ", min_value=0, max_value=None, value=1, step=1)
 st.write("")
 st.write("Valor de A: ", a)
 
 st.write("Qual Ã© o valor de B? ")
-b = st.number_input("SugestÃ£o 8: " )
+b = st.number_input("SugestÃ£o 8: ", min_value=0, max_value=None, value=8, step=1)
 st.write("")
 st.write("Valor de B ", b)
 
 st.write("Qual Ã© o valor de C?")
-c = st.number_input("SugestÃ£o -9: " )
+c = st.number_input("SugestÃ£o -9: ", min_value=0, max_value=None, value=-9, step=1)
 st.write("")
 st.write("Valor de C ", c)
 #calculodelta
