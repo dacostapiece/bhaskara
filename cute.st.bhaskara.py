@@ -1,4 +1,3 @@
-#! /usr/bin/python3
 import streamlit as st
 st.title ("Formula de Bhaskara")
 def run():
@@ -21,7 +20,7 @@ st.write("----------------------------")
 st.write("2A")
 st.write("")
 #Imagem01
-#st.image("formula-de-bhaskara.jpg")
+st.image("formula-de-bhaskara.jpg")
 st.write ("Calcula a Bhaska ai pra Noiz!")
 #USER st.number_input
 st.write("Qual Ã© o valor de A?")
@@ -40,7 +39,7 @@ st.write("")
 st.write("Valor de C ", c)
 #calculodelta
 #Imagem 02
-#st.image("delta.jpg")
+st.image("delta.jpg")
 st.write("")
 st.write("Calculo do Delta")
 calculodelta = (b * b) - (4 * a * c)
@@ -55,7 +54,7 @@ st.write("Delta = ", calculodelta)
 
 #(calculo raiz)
 st.write("")
-#st.image("raiz-quadrada.png")
+st.image("raiz-quadrada.png")
 st.write("")
 st.write("Calculo da Raiz")
 #While resultado for diferente de deltaraiz
@@ -119,7 +118,7 @@ st.write("Olha o veio Baka ae, quer dizer, Bhaskara")
 #st.image("bhaskara.png")
 st.write("")
 st.write("MAS....")
-#st.video("https://www.youtube.com/watch?v=39OSPLVI3_I")
+st.video("https://www.youtube.com/watch?v=39OSPLVI3_I")
 
 st.write("Site de referÃªncia")
 st.write("https://mundoeducacao.uol.com.br/matematica/formula-bhaskara.htm")
