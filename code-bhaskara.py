@@ -80,7 +80,7 @@ st.write("Valor de I atualizado: ",i)
 st.write("Raiz de Delta: ",i2)
 st.write("")
 #imagem 04
-#st.image("x1_x2.png")
+st.image("x1_x2.png")
 st.write("")
 st.write("Calculo X1 e X2")
 st.write("X1")
@@ -94,7 +94,7 @@ st.write("2 * ", a)
 st.write("")
 x1=-(b+i2)/2*a
 x2=-(b-i2)/2*a
-st.write("X1 = ", x2)
+st.write("X1 = ", x2)#
 st.write("")
 st.write("X2")
 st.write("X2 = - B - Raiz(Delta)")
