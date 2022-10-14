@@ -13,3 +13,4 @@ while deupau == False:
   else: 
     deupau = False
 st.write(i2)
+st.image("bhaskara.png")
