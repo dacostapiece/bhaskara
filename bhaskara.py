@@ -148,7 +148,7 @@ st.video("https://www.youtube.com/watch?v=39OSPLVI3_I")
 st.write("Site de referencia")
 st.write("https://mundoeducacao.uol.com.br/matematica/formula-bhaskara.htm")
 st.write("Full code snippet")
-st.write("https://github.com/dacostapiece/dc/blob/main/code-bhaskara.py")
+st.write("https://github.com/dacostapiece/bhaskara")
 st.write("Obrigado!! Mafia Dac")
 st.write("")
 
