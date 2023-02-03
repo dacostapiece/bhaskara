@@ -11,6 +11,18 @@ def run():
 st.write("")
 #Imagem01
 st.image("formula-de-bhaskara.jpg")
+
+st.write ("DISCLAIMER")
+st.write ("O código vem com os valores predefinidos:")
+st.write("A = 1, B = 8, C = -9")
+st.write("Do contrário o programa só iria crashar")
+st.write("OUTRAS Sugestões de valores para calcular a Bhaskara com resultados conhecidos:")
+st.write("A = 1, B = 12, C = 13")
+st.write("Resultado esperado: X1 = 1, X2 = -13")
+st.write("A = 3, B = -15, C = 12")
+st.write("Resultado esperado: X1 = 4, X2 = 1")
+st.write("Esse código não trata se Delta for negativo ou se Raiz for igual à Zero")
+st.write("")
 st.write ("Calcula a Bhaska ai pra Noiz!")
 #USER st.number_input
 st.write("Qual eh o valor de A?")
@@ -154,6 +166,3 @@ st.write("")
 
 #Inserir disclaimer de quando de fato rodou o código
 #st.video("https://www.youtube.com/watch?v=39OSPLVI3_I")
-
-st.write("P.S.:")
-st.write("Esse código não trata se Delta for negativo ou se Raiz for igual à Zero")
