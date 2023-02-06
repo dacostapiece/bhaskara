@@ -82,6 +82,7 @@ else:
 
   #FUNCAO calculoRaiz
   def calculoRaiz(resultadoDelta):
+    percent_complete=0
     if resultadoDelta <= 0:
       st.write("<span style='color:red'>Não existe Raiz de número ZERO ou NEGATIVO.</span>",unsafe_allow_html=True)
       st.write("<span style='color:red'>Favor reinserir os valores para cálculo.</span>",unsafe_allow_html=True)
@@ -91,23 +92,26 @@ else:
       deupau = False
       str_depau = "False"
       i = 0
-      percent_complete=0
+      
       while (deupau == False) and (i<100):
         i += 1
-        st.write("<span style='color:red'>CALCULO RAIZ INTERAÇÃO:</span>",i,unsafe_allow_html=True)
-        st.progress(percent_complete+i)
+        #st.write("<span style='color:red'>CALCULO RAIZ INTERAÇÃO:</span>",i,unsafe_allow_html=True)
+        #st.progress(percent_complete+i)
       
         divisao = resultadoDelta / i
         
         resultadoRaiz = divisao
         
-        if i >= 100:
-          bogus3 = 0
-        else:
-          bogus1 = 0
         if divisao == i: 
           deupau = True
           str_depau = "True"
+          eachBarProgress = 100/i
+          totalBarProgress = 100
+          st.write("Total de cálculos para obter a Raiz: ", i)
+          st.write("Progresso...")
+          while (percent_complete <= totalBarProgress):
+            st.progress(percent_complete)
+            percent_complete=percent_complete+int(eachBarProgress)
           
         else:
           bogus = 0
@@ -189,5 +193,4 @@ else:
 
     #Inserir disclaimer de quando de fato rodou o código
     #st.video("https://www.youtube.com/watch?v=39OSPLVI3_I")
-
 
