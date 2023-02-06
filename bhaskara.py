@@ -120,7 +120,7 @@ else:
   if resultadoRaiz[0] <= 0:
       bogus4 = 0
   elif resultadoRaiz[1] >=100:
-    st.write("<span style='color:red'>O número de iterações quase chegou a 100!: Valor: </span>",i,unsafe_allow_html=True)
+    st.write("<span style='color:red'>O número de iterações quase chegou a 100!: Valor: </span>",resultadoRaiz[1],unsafe_allow_html=True)
     st.write("<span style='color:red'>Reinsira os valores para cálculo!</span>",unsafe_allow_html=True)
   else:
 
