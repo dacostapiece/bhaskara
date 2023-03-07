@@ -36,10 +36,11 @@ st.write("Valor de A: ", a)
 if a <= 0:
   st.write("O valor de A não pode ser igual ou menor à ZERO")
   st.write("Insira outra valor")
-  a = st.number_input("", min_value=None, max_value=None, value=1, step=1, key="a")
+  a = st.number_input("", min_value=None, max_value=None, value=1, step=1, key="a2")
   st.write("")
   st.write('Sugestões de valores para "A":')
   st.write("A = 1, B = 8, C = -9")
+  a = a2
   st.write("Valor de A: ", a)
 else:
   bogus5 = 0
