@@ -32,7 +32,7 @@ a = st.number_input("", min_value=None, max_value=None, value=1, step=1, key="a"
 st.write("")
 
 #VALIDA VALOR DE A
-if a <= 0:
+while a <= 0:
   st.write("<span style='color:red'>O valor de A não pode ser igual ou menor à ZERO</span>",unsafe_allow_html=True)
   st.write("Insira outra valor")
   st.write('Sugestões de valores para "A":')
