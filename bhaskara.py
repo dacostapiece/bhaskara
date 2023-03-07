@@ -35,15 +35,15 @@ st.write("")
 if a <= 0:
   st.write("<span style='color:red'>O valor de A não pode ser igual ou menor à ZERO</span>",unsafe_allow_html=True)
   st.write("Insira outra valor")
-  a2 = st.number_input("", min_value=None, max_value=None, value=1, step=1, key="a2")
-  st.write("")
   st.write('Sugestões de valores para "A":')
   st.write("A = 1, B = 8, C = -9")
+  a2 = st.number_input("", min_value=None, max_value=None, value=1, step=1, key="a2")
   a = a2
   st.write("Valor de A atualizado: ", a)
 else:
   st.write("Valor de A: ", a)
 
+st.write("")
 st.write("Qual eh o valor de B? ")
 b = st.number_input("", min_value=None, max_value=None, value=8, step=1, key="b")
 st.write("")
