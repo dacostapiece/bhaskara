@@ -32,25 +32,10 @@ a = st.number_input("", min_value=None, max_value=None, value=1, step=1, key="a"
 st.write("")
 
 #VALIDA VALOR DE A
-def validarA(a):
-  arrayValidateA=[a]
-  i = 0
-  while arrayValidateA[i] <= 0:
-    st.write("<span style='color:red'>O valor de A não pode ser igual ou menor à ZERO</span>",unsafe_allow_html=True)
-    st.write("Insira outra valor")
-    st.write('Sugestões de valores para "A":')
-    st.write("A = 1, B = 8, C = -9")
-    arrayValidateA[i] = st.number_input("")
-    st.write("Valor de A atualizado: ", arrayValidateA[i])
-    i=i+1
-    if len(arrayValidateA)>3:
-      st.write("<span style='color:red'>Valor de A permanece =< ZERO</span>",unsafe_allow_html=True)
-      a = 1
-      return a
-    else:
-      return arrayValidateA[i]
-
-validarA(a)
+if a <= 0:
+  st.write("<span style='color:red'>O valor de A não pode ser igual ou menor à ZERO</span>",unsafe_allow_html=True)
+  st.write("Reinsira outra valor")
+  st.stop()
 
 st.write("Valor de A ", a)
 
