@@ -38,7 +38,7 @@ def validarA(a):
     st.write("Insira outra valor")
     st.write('Sugestões de valores para "A":')
     st.write("A = 1, B = 8, C = -9")
-    a = st.number_input("", min_value=None, max_value=None, value=1, step=1, key="a")
+    a = st.number_input("", min_value=None, max_value=None, value=1, step=1)
     st.write("Valor de A atualizado: ", a)
   return a
 
