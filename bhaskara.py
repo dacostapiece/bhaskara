@@ -30,7 +30,6 @@ st.write ("Calcula a Bhaska ai pra Noiz!")
 st.write("Qual eh o valor de A?")
 a = st.number_input("", min_value=None, max_value=None, value=1, step=1, key="a")
 st.write("")
-st.write("Valor de A: ", a)
 
 #VALIDA VALOR DE A
 if a <= 0:
@@ -44,7 +43,7 @@ if a <= 0:
   a = a2
   st.write("Valor de A: ", a)
 else:
-  bogus5 = 0
+  st.write("Valor de A: ", a)
 
 st.write("Qual eh o valor de B? ")
 b = st.number_input("", min_value=None, max_value=None, value=8, step=1, key="b")
