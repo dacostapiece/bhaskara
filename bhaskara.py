@@ -41,7 +41,7 @@ if a <= 0:
   st.write('Sugestões de valores para "A":')
   st.write("A = 1, B = 8, C = -9")
   a = a2
-  st.write("Valor de A: ", a)
+  st.write("Valor de A atualizado: ", a)
 else:
   st.write("Valor de A: ", a)
 
