@@ -36,6 +36,7 @@ st.write("Valor de A: ", a)
 if a <= 0:
   st.write("O valor de A não pode ser igual ou menor à ZERO")
   st.write("Insira outra valor")
+  a2 = 1
   a = st.number_input("", min_value=None, max_value=None, value=1, step=1, key="a2")
   st.write("")
   st.write('Sugestões de valores para "A":')
