@@ -34,7 +34,7 @@ st.write("Valor de A: ", a)
 
 #VALIDA VALOR DE A
 if a <= 0:
-  st.write("O valor de A não pode ser igual ou menor à ZERO")
+  st.write("<span style='color:red'>O valor de A não pode ser igual ou menor à ZERO</span>",unsafe_allow_html=True)
   st.write("Insira outra valor")
   a2 = 1
   a = st.number_input("", min_value=None, max_value=None, value=1, step=1, key="a2")
